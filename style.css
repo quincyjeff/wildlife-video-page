@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 15px auto;
+  font-size: 1rem;
+  color: #333;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}
